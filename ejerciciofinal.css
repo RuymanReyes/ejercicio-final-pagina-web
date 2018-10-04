@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* es recomendable comenzar con este comando para restablecer todo a 0 y que luego no nos de problemas */
+
+/* cabecera */
+#header{
+    text-align: center;
+    background-image:url(imagenes/moto.jpg);
+    width: 750px;
+    height: 750px;
+    background-size:100% ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+#header li{
+    list-style: none;
+
+}
+#header .logo{
+    width: 50px;
+    height: 50px;
+}
+.inline,ul.inline li{
+    display: inline;
+}
+/* .principal {
+    width: 100%
+} */
+
+/* footer pie de pagina */
+.redes img{
+    width: 30px;
+    height: 30px;
+}
+.redes{
+    list-style: none
+}
+.inicio {
+    list-style: none
+}
+.direccion{
+    list-style: none
+}
+ul.pie li{
+    display: inline;
+}
+.direccion, .menu li{
+ list-style: none;
+}
+#menu, #RRSS,#contacto{
+    float: left;
+    width: 33.3%;
+    text-align: center
+}
+.menu li, .redes li{
+    display: inline
+}
+a{
+    text-decoration: none;
+}
+
+/* pertenece al menú de arriba pero es para separarlo del footer */
+#Main p{
+margin-bottom: 40px
+}
