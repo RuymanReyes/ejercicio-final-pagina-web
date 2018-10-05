@@ -7,32 +7,135 @@
 /* cabecera */
 #header{
     text-align: center;
-    background-image:url(imagenes/moto.jpg);
-    width: 750px;
-    height: 750px;
-    background-size:100% ;
+    /* background-image:url(imagenes/titulo.jpg); */
+    /* height: 225px; */
+    background-size:cover ;
     background-repeat: no-repeat;
     margin: 0 auto;
+    background-position: center;
+/* a partir de aquí centrará toda la cabecera en el centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 125px;;
 }
 #header li{
     list-style: none;
 
 }
 #header .logo{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
 }
 .inline,ul.inline li{
     display: inline;
+
+}
+/* .inline{
+    color: white;
+} */
+
+.boton {
+    margin-top: 8px;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
+.inline{
+    color: white;
+}
+
+.titulo{
+    font-size: 50px;
+    padding: 40px
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+  
 }
 /* .principal {
     width: 100%
 } */
 
+/* noticias */
+#noticias{
+    float: right;
+    align-items: right;
+    display: block, right;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.fotonoticia{
+    width: 350px;
+    height: 250px;
+}
+/* foto del faldon*/
+#foto{
+   background-image: url(imagenes/moto.jpg);
+   background-size: cover;
+   height: 750px;
+   margin-top: 40px;
+   background-position: center;
+}
+
+/*contenido principal comienza*/
+#main{
+    text-align: center;
+    margin-top: 40px;
+    width: 70%;
+    float: left;
+    font-family:'Pacifico', cursive;
+    font-size: 38px
+}
+.cabecera{
+    text-decoration: underline
+}
+.relleno{
+    width: 1100px;
+    height: 800px;
+}
+/* pertenece al menú de arriba pero es para separarlo del footer */
+#main p{
+margin-bottom: 40px;
+text-align: justify
+}
+
+/* NOTICIAS */
+#noticias{
+    text-align: center;
+    border-left: solid black 1px
+}
+.noticias{
+    text-align: justify;
+    padding: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.noticiastitulo{
+    font-size: 60px;
+}
+/* #main p{
+    text-align: 
+} */
 /* footer pie de pagina */
+#Pie{
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px black solid;
+    position: relative;
+    bottom: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
 .redes img{
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
 }
 .redes{
     list-style: none
@@ -61,7 +164,9 @@ a{
     text-decoration: none;
 }
 
-/* pertenece al menú de arriba pero es para separarlo del footer */
-#Main p{
-margin-bottom: 40px
+.menu a{
+    text-decoration: none;
+    color: black; 
 }
+
+/* PAGINA 2 */
