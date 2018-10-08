@@ -18,7 +18,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
-    height: 125px;;
+    height: 125px;
 }
 #header li{
     list-style: none;
@@ -97,7 +97,7 @@
     text-decoration: underline
 }
 .relleno{
-    width: 1100px;
+    width: 1050px;
     height: 800px;
 }
 /* pertenece al menú de arriba pero es para separarlo del footer */
@@ -169,4 +169,151 @@ a{
     color: black; 
 }
 
-/* PAGINA 2 */
+/* PAGINA 2  SERVICIOS*/
+
+#tienda{
+    clear: both;
+    display: flex;
+    float: left;
+    flex-flow: wrap
+}
+#bolsa{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa2{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa3{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa4{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa5{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa6{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa7{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa8{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa9{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa10{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa11{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa12{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+/* Fin de la Tienda no he encontrado la manera de hacer más grande el botón de comprar hay que preguntar cómo se hace.
+he intentado de darle tamaño y varias cosas y nada  */ 
+
+/*empieza el estilo del slider*/
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+/*Esto maneja el slider el transito de cada imagen el comando @keyframe es para hacer la animación, que va colocando en porcentajes, para mostrar en pantalla,este muestra la transcisión para que no desaparezca de un lado al otro sino hacer el efecto que se desplaza por la pantalla, ESTA COPIADO DE UN EJEMPLO NO LO HICE YO*/
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.slider{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* comienzo de la página de Contacto*/
+/*#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}*/
+.personales{
+    display: flex;
+    justify-content: center;
+    
+}
