@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *{
     margin: 0;
     padding: 0;
@@ -316,4 +317,596 @@ he intentado de darle tamaño y varias cosas y nada  */
     display: flex;
     justify-content: center;
     
+=======
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+}
+/* es recomendable comenzar con este comando para restablecer todo a 0 y que luego no nos de problemas */
+
+/* cabecera */
+
+
+header{
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+/* VIDEO */
+.contenedor-video{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+}
+.video{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0
+}
+.capa-efecto{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.8)
+}
+.logo{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+.menu{
+    float: right;
+    position: relative;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+.boton li{
+    list-style: none;
+}
+.inline{
+    display: flex;
+    justify-content: space-between;
+}
+.boton li a{
+    color: white;
+    font-size: 22px
+}
+.titulo{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    width: 60%;
+    clear: both;
+    margin-left: 400px;
+    font-size: 100px;
+    color: white;
+}
+
+/* noticias */
+#noticias{
+    float: right;
+    align-items: right;
+    display: block, right;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.fotonoticia{
+    width: 350px;
+    height: 250px;
+}
+/* foto del faldon*/
+#foto{
+   background-image: url(imagenes/moto.jpg);
+   background-size: cover;
+   height: 750px;
+   margin-top: 40px;
+   background-position: center;
+}
+
+/*contenido principal comienza*/
+main{
+    text-align: center;
+    margin-top: 40px;
+    width: 70%;
+    float: left;
+    font-family:'Pacifico', cursive;
+    font-size: 38px
+}
+.cabecera{
+    text-decoration: underline
+}
+.relleno{
+    width: 1050px;
+    height: 800px;
+}
+/* pertenece al menú de arriba pero es para separarlo del footer */
+#main p{
+margin-bottom: 40px;
+text-align: justify
+}
+
+/* NOTICIAS */
+#noticias{
+    text-align: center;
+    border-left: solid black 1px
+}
+.noticias{
+    text-align: justify;
+    padding: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.noticiastitulo{
+    font-size: 60px;
+}
+/* #main p{
+    text-align: 
+} */
+/* footer pie de pagina */
+#Pie{
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px black solid;
+    position: relative;
+    bottom: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
+.redes img{
+    width: 80px;
+    height: 80px;
+}
+.redes{
+    list-style: none
+}
+.inicio {
+    list-style: none
+}
+.direccion{
+    list-style: none
+}
+ul.pie li{
+    display: inline;
+}
+.direccion, .menu li{
+ list-style: none;
+}
+#menu, #RRSS,#contacto{
+    float: left;
+    width: 33.3%;
+    text-align: center
+}
+.menu li, .redes li{
+    display: inline
+}
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black; 
+}
+
+/* PAGINA 2  SERVICIOS*/
+
+#tienda{
+    display: flex;
+    flex-flow: wrap;
+
+}
+.bolsa{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#pimagen{
+    width: 350px;
+    height: 300px;
+}
+
+/*empieza el estilo del slider*/
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+/*Esto maneja el slider el transito de cada imagen el comando @keyframe es para hacer la animación, que va colocando en porcentajes, para mostrar en pantalla,este muestra la transcisión para que no desaparezca de un lado al otro sino hacer el efecto que se desplaza por la pantalla, ESTA COPIADO DE UN EJEMPLO NO LO HICE YO*/
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.slider{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* comienzo de la página de Contacto*/
+#formulario{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.personales, .asuntotex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 75%;
+    height: 25%; */
+    font-size: 70px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 40px
+
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+/* es recomendable comenzar con este comando para restablecer todo a 0 y que luego no nos de problemas */
+
+/* cabecera */
+#header{
+    text-align: center;
+    /* background-image:url(imagenes/titulo.jpg); */
+    /* height: 225px; */
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-position: center;
+/* a partir de aquí centrará toda la cabecera en el centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 125px;
+}
+#header li{
+    list-style: none;
+
+}
+#header .logo{
+    width: 150px;
+    height: 150px;
+}
+.inline,ul.inline li{
+    display: inline;
+
+}
+/* .inline{
+    color: white;
+} */
+
+.boton {
+    margin-top: 8px;
+    color: white;
+    text-decoration: none;
+    padding-left: 45px;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
+.inline{
+    color: white;
+}
+
+.titulo{
+    font-size: 50px;
+    padding: 40px
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+  
+}
+/* .principal {
+    width: 100%
+} */
+
+/* noticias */
+#noticias{
+    float: right;
+    align-items: right;
+    display: block, right;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.fotonoticia{
+    width: 350px;
+    height: 250px;
+}
+/* foto del faldon*/
+#foto{
+   background-image: url(imagenes/moto.jpg);
+   background-size: cover;
+   height: 750px;
+   margin-top: 40px;
+   background-position: center;
+}
+
+/*contenido principal comienza*/
+#main{
+    text-align: center;
+    margin-top: 40px;
+    width: 70%;
+    float: left;
+    font-family:'Pacifico', cursive;
+    font-size: 38px
+}
+.cabecera{
+    text-decoration: underline
+}
+.relleno{
+    width: 1050px;
+    height: 800px;
+}
+/* pertenece al menú de arriba pero es para separarlo del footer */
+#main p{
+margin-bottom: 40px;
+text-align: justify
+}
+
+/* NOTICIAS */
+#noticias{
+    text-align: center;
+    border-left: solid black 1px
+}
+.noticias{
+    text-align: justify;
+    padding: 15px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+.noticiastitulo{
+    font-size: 60px;
+}
+/* #main p{
+    text-align: 
+} */
+/* footer pie de pagina */
+#Pie{
+    clear: both;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px black solid;
+    position: relative;
+    bottom: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 30px;
+}
+.redes img{
+    width: 80px;
+    height: 80px;
+}
+.redes{
+    list-style: none
+}
+.inicio {
+    list-style: none
+}
+.direccion{
+    list-style: none
+}
+ul.pie li{
+    display: inline;
+}
+.direccion, .menu li{
+ list-style: none;
+}
+#menu, #RRSS,#contacto{
+    float: left;
+    width: 33.3%;
+    text-align: center
+}
+.menu li, .redes li{
+    display: inline
+}
+a{
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black; 
+}
+
+/* PAGINA 2  SERVICIOS*/
+
+#tienda{
+    clear: both;
+    display: flex;
+    float: left;
+    flex-flow: wrap
+}
+#bolsa{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa2{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa3{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa4{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa5{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa6{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa7{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa8{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa9{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa10{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa11{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+#bolsa12{
+    padding: 10px;
+    margin-bottom: 2px;
+    width: 350px;
+    height: 400px;
+}
+/* Fin de la Tienda no he encontrado la manera de hacer más grande el botón de comprar hay que preguntar cómo se hace.
+he intentado de darle tamaño y varias cosas y nada  */ 
+
+/*empieza el estilo del slider*/
+.slider {
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+/*Esto maneja el slider el transito de cada imagen el comando @keyframe es para hacer la animación, que va colocando en porcentajes, para mostrar en pantalla,este muestra la transcisión para que no desaparezca de un lado al otro sino hacer el efecto que se desplaza por la pantalla, ESTA COPIADO DE UN EJEMPLO NO LO HICE YO*/
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.slider{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* comienzo de la página de Contacto*/
+/*#formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: center;
+}*/
+.personales{
+    display: flex;
+    justify-content: center;
+    
+>>>>>>> master
+>>>>>>> Stashed changes
 }

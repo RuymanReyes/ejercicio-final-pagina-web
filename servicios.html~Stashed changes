@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="ejerciciofinal.css" title="style" />
+    <title>Tienda de motos Vulcan</title>
+</head>
+<!-- <header>Tienda motos Vulcan</header> -->
+<!-- comienza el título -->
+<header>
+        <br>
+        <div class="contenedor-video">
+            <video class="video" autoplay loop muted src="videos/video.webm"></video>
+            <source src="videos/video.webm">
+        </div>
+        <div class="capa-efecto">
+        </div>
+        <div class="logo">
+            <img class="logo inline" src="imagenes/teide.png" alt="logo">
+    
+        </div>
+        <!-- enlaces a las otras páginas, que deberé poner su ruta de acceso una idea es que esto se haga tipo position fixed -->
+        <div class="menu">
+            <ul class="inline boton">
+                <li>
+                    <a href="index.html" target="_blank">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html" target="_blank">Servicios</a>
+                </li>
+                <li>
+                    <a href="noticias.html" target="">Noticias</a>
+                </li>
+                <li>
+                    <a href="contacto.html" target="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <h1 class="titulo">Motos Vulcan</h1>
+    </header>
+    <!-- fin de titulo -->
+    <!-- fin de titulo -->
+<!-- fin de titulo --> -->
+
+
+
+<!-- contenido servicios comienza la tienda -->
+
+<!-- Comienza el Producto 1-->
+<div id="tienda">
+    <!-- contenedor General-->
+    <div id="bolsa" class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta1.jpg alt="maleta1">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Q</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    100€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar" style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!-- Fin del Producto 1 -->
+
+    <!--COMIENZA PRODUCTO 2-->
+    <div id="bolsa2"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta2.jpg alt="maleta2">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad ZUUPACK</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    110€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 2-->
+
+    <!--COMIENZA PRODUCTO 3-->
+    <div id="bolsa3"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta3.jpg alt="maleta3">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW05</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    120€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 3-->
+
+    <!--COMIENZA PRODUCTO 4-->
+    <div id="bolsa4"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta4.jpg alt="maleta4">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW40</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    130€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 4-->
+
+    <!--COMIENZA PRODUCTO 5-->
+    <div id="bolsa5"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta5.jpg alt="maleta5">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW35</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    140€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 5-->
+
+    <!--COMIENZA PRODUCTO 6-->
+    <div id="bolsa6"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta6.jpg alt="maleta6">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW22M</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    150€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 6-->
+
+    <!--COMIENZA PRODUCTO 7-->
+    <div id="bolsa7"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta7.jpg alt="maleta7">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW18</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    160€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 7-->
+
+    <!--COMIENZA PRODUCTO 8-->
+    <div id="bolsa8"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta8.jpg alt="maleta8">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW38</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    170€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 8-->
+
+    <!--COMIENZA PRODUCTO 9-->
+    <div id="bolsa9"class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta9.jpg alt="maleta9">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW42</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    180€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 9-->
+
+    <!--COMIENZA PRODUCTO 10-->
+    <div id="bolsa10">
+        <div id="pimagen">
+            <img src=imagenes\maleta10.jpg alt="maleta10">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW55</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    190€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 10-->
+
+    <!--COMIENZA PRODUCTO 11-->
+    <div id="bolsa11" class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta11.jpg alt="maleta11">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW90</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    200€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 11-->
+
+    <!--COMIENZA PRODUCTO 12-->
+    <div id="bolsa12" class="bolsa">
+        <div id="pimagen">
+            <img src=imagenes\maleta12.jpg alt="maleta12">
+        </div>
+        <div class="pdetalles">
+            <div class="nombre">
+                <h3>Bolsa Watterproof Marca Shad SW138</h3>
+            </div>
+            <div class="pprecio">
+                <div class="etiqueta">
+                    P.P.V
+                </div>
+                <div class="preciofinal">
+                    220€
+                </div>
+            </div>
+        </div>
+        <div class="pboton">
+            <div class="pbotoncompra">
+                <input type="button" class="comprar" value="Comprar"style="width:70px; height:25px">
+            </div>
+        </div>
+    </div>
+    <!--FIN DE PRODUCTO 12-->
+
+
+
+
+</div>
+
+
+
+
+
+
+<!-- comienza pie de página con los elementos  -->
+<div id="Pie">
+    <footer id="faldon">
+
+        <div id="menu">
+            <h2>Menu</h2>
+            <ul class="menu">
+                <li>
+                    <a href="index.html" target="_blank">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html" target="_blank">Servicios</a>
+                </li>
+                <li>
+                    <a href="noticias.html" target="">Noticias</a>
+                </li>
+                <li>
+                    <a href="contacto.html" target="">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div id="RRSS">
+            <h2>Redes sociales</h2>
+            <ul class="redes pie">
+                <li>
+                    <a href="http://facebook.es">
+                        <img src="imagenes/facebook.jpg" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="hhtp://tiwtter.es">
+                        <img src="imagenes/twitter.jpg" alt="Twitter">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://instagram.es">
+                        <img src="imagenes/instagram.jpg" alt="instagram"> </a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com">
+                        <img src="imagenes/google.jpg" alt="google+">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="contacto">
+            <h2>Contacto</h2>
+            <ul class="direccion">
+                <li>
+                    Telefono:123456789
+                </li>
+                <li>
+                    Email:motosvulcan@gmail.com
+                </li>
+                <li>
+                    Calle pintor Zurbarán Nº3 Málaga
+                </li>
+            </ul>
+
+        </div>
+    </footer>
+    <!-- fin del píe -->
+</div>
+
+<body>
